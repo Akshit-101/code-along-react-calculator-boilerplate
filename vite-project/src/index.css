@@ -1,0 +1,67 @@
+.aKey {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+}
+
+.top {
+  grid-column: span 2;
+  margin-top: 7vh;
+  
+}
+
+html{
+  background-color: #96ec8d;
+}
+button {
+  font-size: 4.5vh;
+  color: #fff;
+  padding: 14px 16px;
+  text-align: center;
+  border: none;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  border: 1px solid #000000;
+}
+h2{
+  color: red;
+}
+button:hover {
+  background-color: #48583b; /* Darker blue on hover */
+  color: #fff;
+}
+
+.body {
+  text-align: center;
+  margin: 20px auto;
+  border: 6px solid #000000; /* Border color same as button background color */
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.point {
+  cursor: pointer;
+  background-color: #b0bbb0;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+}
+
+.a {
+  width: 35%;
+}
+
+.b {
+  width: 30%;
+}
+
+button.point.c {
+  width: 30%;
+}
+
+button.point.d {
+  width: 40%;
+}
